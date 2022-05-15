@@ -1,0 +1,9 @@
+D:\GitHub\6_Sem_DB\labs\lab3\bin\Debug\lab3.dll
+D:\GitHub\6_Sem_DB\labs\lab3\bin\Debug\lab3.pdb
+D:\GitHub\6_Sem_DB\labs\lab3\bin\Debug\Microsoft.Analytics.Interfaces.dll
+D:\GitHub\6_Sem_DB\labs\lab3\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+D:\GitHub\6_Sem_DB\labs\lab3\bin\Debug\Microsoft.Analytics.Types.dll
+D:\GitHub\6_Sem_DB\labs\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+D:\GitHub\6_Sem_DB\labs\lab3\obj\Debug\lab3.csproj.CopyComplete
+D:\GitHub\6_Sem_DB\labs\lab3\obj\Debug\lab3.dll
+D:\GitHub\6_Sem_DB\labs\lab3\obj\Debug\lab3.pdb

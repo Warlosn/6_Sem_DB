@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<log>
+<record>
+  <date>2022-04-11T22:07:48</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Catalog DBLab6, Schema dbo coalesced to single schema DBLab6</message>
+  <key>Convert.COALESCED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>DBLab6</param>
+  <param>dbo</param>
+  <param>DBLab6</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4ee32091</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:48</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__Employee__4D8AEEF3B4A7946B' on table 'Employee' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__Employee__4D8AEEF3B4A7946B</param>
+  <param>Employee</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1496075b</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CK__Orders_pr__produ__30F848ED</message>
+  <param>CK__Orders_pr__produ__30F848ED, MD_CONSTRAINTS, 71951Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:53</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CK__Orders_pr__produ__30F848ED in 0 seconds</message>
+  <param>CK__Orders_pr__produ__30F848ED, MD_CONSTRAINTS, 84251Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:55</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:All_Orders</message>
+  <param>All_Orders, MD_VIEWS, 17501Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:56</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted All_Orders in 0 seconds</message>
+  <param>All_Orders, MD_VIEWS, 80451Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:56</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:addNewEmployee</message>
+  <param>addNewEmployee, MD_STORED_PROGRAMS, 80551Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:56</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted addNewEmployee in 0 seconds</message>
+  <param>addNewEmployee, MD_STORED_PROGRAMS, 80551Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:57</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:addProductinOrder</message>
+  <param>addProductinOrder, MD_STORED_PROGRAMS, 80651Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted addProductinOrder in 0 seconds</message>
+  <param>addProductinOrder, MD_STORED_PROGRAMS, 80651Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:delClient</message>
+  <param>delClient, MD_STORED_PROGRAMS, 80751Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted delClient in 0 seconds</message>
+  <param>delClient, MD_STORED_PROGRAMS, 80751Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:59</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:deleteEmployee</message>
+  <param>deleteEmployee, MD_STORED_PROGRAMS, 80851Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:59</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted deleteEmployee in 0 seconds</message>
+  <param>deleteEmployee, MD_STORED_PROGRAMS, 80851Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:07:59</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getAllClients</message>
+  <param>getAllClients, MD_STORED_PROGRAMS, 80951Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:00</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getAllClients in 0 seconds</message>
+  <param>getAllClients, MD_STORED_PROGRAMS, 80951Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:00</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getAllEmployee</message>
+  <param>getAllEmployee, MD_STORED_PROGRAMS, 81051Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:00</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getAllEmployee in 0 seconds</message>
+  <param>getAllEmployee, MD_STORED_PROGRAMS, 81051Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:00</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getAllOrders</message>
+  <param>getAllOrders, MD_STORED_PROGRAMS, 81151Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getAllOrders in 0 seconds</message>
+  <param>getAllOrders, MD_STORED_PROGRAMS, 81151Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getAllProducts</message>
+  <param>getAllProducts, MD_STORED_PROGRAMS, 81251Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getAllProducts in 0 seconds</message>
+  <param>getAllProducts, MD_STORED_PROGRAMS, 81251Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:newClient</message>
+  <param>newClient, MD_STORED_PROGRAMS, 81351Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:02</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted newClient in 0 seconds</message>
+  <param>newClient, MD_STORED_PROGRAMS, 81351Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:02</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:newOrder</message>
+  <param>newOrder, MD_STORED_PROGRAMS, 81451Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:02</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted newOrder in 0 seconds</message>
+  <param>newOrder, MD_STORED_PROGRAMS, 81451Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:02</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:spisok_orders</message>
+  <param>spisok_orders, MD_STORED_PROGRAMS, 81551Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:03</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted spisok_orders in 0 seconds</message>
+  <param>spisok_orders, MD_STORED_PROGRAMS, 81551Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:03</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:updatePhone</message>
+  <param>updatePhone, MD_STORED_PROGRAMS, 81651Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:03</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted updatePhone in 0 seconds</message>
+  <param>updatePhone, MD_STORED_PROGRAMS, 81651Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:UpdateAllPrice</message>
+  <param>UpdateAllPrice, MD_TRIGGERS, 17451Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Multiple Limitations for Trigger UpdateAllPrice</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@29570f99</param>
+
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'CREATE' encountered on Trigger DBLab6.dbo.UpdateAllPrice line 0 column 1</message>
+  <param>UpdateAllPrice, MD_TRIGGERS, 78301</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation '+=' encountered on Trigger DBLab6.dbo.UpdateAllPrice line 5 column 15</message>
+  <param>UpdateAllPrice, MD_TRIGGERS, 78301</param>
+
+</record>
+</record>
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted UpdateAllPrice in 0 seconds</message>
+  <param>UpdateAllPrice, MD_TRIGGERS, 78301Convert</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:04</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Convert completed in 12 seconds</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4ee32091</param>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:12</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Generation phase
+ORA-00942: ??????? ??? ????????????? ???????????? ?? ??????????
+</message>
+  <param>oracle.dbtools.metadata.persistence.PersistableObject.doUpdate(PersistableObject.java:364)</param>
+  <param>oracle.dbtools.metadata.persistence.PersistableObject.save(PersistableObject.java:186)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doGenerate(FullMigrateTask.java:1303)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doMaskBasedActions(FullMigrateTask.java:437)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:321)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:154)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTask.call(RaptorTask.java:199)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask.run(RaptorTaskManager.java:702)</param>
+  <param>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</param>
+  <param>java.lang.Thread.run(Thread.java:748)</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@796afd3a</param>
+  <exception>
+    <message>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask$FullMigrateTaskException: Generation phase
+ORA-00942: ??????? ??? ????????????? ???????????? ?? ??????????
+</message>
+    <frame>
+      <class>oracle.dbtools.metadata.persistence.PersistableObject</class>
+      <line>364</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.metadata.persistence.PersistableObject</class>
+      <line>186</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1303</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-04-11T22:08:12</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Generated script run has failures: FAILED : Database Migration : FAILED</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3cb6b3b3</param>
+
+</record>
